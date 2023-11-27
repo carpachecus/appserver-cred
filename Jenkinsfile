@@ -27,7 +27,7 @@ pipeline {
         stage('Build and Push') {
             steps {
                 script {
-                        docker.withRegistry('docker-id') {
+                        docker.withRegistry('https://index.docker.io/v1/', 'docker-id') {
 
                         def dockerImage = docker.build("carpachecus/appserver-python:${env.BUILD_ID}")
 
