@@ -28,3 +28,4 @@ class TestLaunch(unittest.TestCase):
             self.assertIn(b'<h1>Welcome to my Credibanco web app!</h1>', response.data)
             self.assertIn(b"<h1>Today's date is", response.data)
             self.assertIn(b'and the current time is', response.data)
+
