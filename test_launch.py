@@ -15,7 +15,7 @@ class TestLaunch(unittest.TestCase):
             response = client.get('/')
             self.assertEqual(response.status_code, 200)
             self.assertIn(b'<h1>Welcome to my Credibanco web app!</h1>', response.data)
-            self.assertIn(b"<h1>Today's  date is", response.data)
+            self.assertIn(b"<h1>Today's date is", response.data)
             self.assertIn(b'and the current time is', response.data)
 
     # 4. Define another test method
@@ -26,6 +26,6 @@ class TestLaunch(unittest.TestCase):
             self.assertEqual(response.status_code, 200)
             self.assertEqual(response.content_type, 'text/html; charset=utf-8')
             self.assertIn(b'<h1>Welcome to my Credibanco web app!</h1>', response.data)
-            self.assertIn(b"<h1>Today's  date is", response.data)
+            self.assertIn(b"<h1>Today's date is", response.data)
             self.assertIn(b'and the current time is', response.data)
 
