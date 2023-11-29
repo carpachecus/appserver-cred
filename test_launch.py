@@ -27,4 +27,8 @@ class TestLaunch(unittest.TestCase):
             self.assertEqual(response.content_type, 'text/html; charset=utf-8')
             self.assertIn(b'<h1>Welcome to my Credibanco web app!</h1>', response.data)
             self.assertIn(b"<h1>Today's  date is", response.data)
+<<<<<<< HEAD
             self.assertIn(b'and the current time is', response.data)
+=======
+            self.assertIn(b'and the current time is', response.data)
+>>>>>>> 4278be450aa29b3267b9c27cbf279e3406cc460d

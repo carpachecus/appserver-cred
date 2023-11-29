@@ -16,7 +16,12 @@ def index():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     current_date = now.strftime("%Y-%m-%d")
+<<<<<<< HEAD
     return f"<h1>Welcome to my Credibanco web app!</h1><h1>Today's  date is {current_date} and the current time is {current_time}.</h1>"
+=======
+    return f'<h1>Welcome to my Credibanco web app!</h1><h1>Todays date is {current_date} and the current time is {current_time}.</h1>'
+    
+>>>>>>> 4278be450aa29b3267b9c27cbf279e3406cc460d
 
 # 4. Run the app
 if __name__ == '__main__':
