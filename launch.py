@@ -1,5 +1,5 @@
 ''' This module contains a Flask app that displays
-a welcome message , date amd the current time'''
+a welcome message , date and the current time'''
 
 # 1. Import libraries
 from flask import Flask
