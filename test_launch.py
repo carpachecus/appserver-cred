@@ -1,4 +1,4 @@
-''' This module contains tests in pytest for the Flask app in launch.py'''
+''' This module contains tests in pytest for the Flask app in  launch.py'''
 
 # 1. Import libraries
 import unittest
