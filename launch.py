@@ -1,5 +1,5 @@
 ''' This module contains a Flask app that displays
-a welcome message , date amd the current time'''
+a welcome message , date and the current time'''
 
 # 1. Import libraries
 from flask import Flask
@@ -18,6 +18,7 @@ def index():
     current_date = now.strftime("%Y-%m-%d")
     return f"<h1>Welcome to my Credibanco web app!</h1><h1>Today's date is {current_date} and the current time is {current_time}.</h1>"
     
+
 
 # 4. Run the app
 if __name__ == '__main__':
